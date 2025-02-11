@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Futura BQ";
+    src: url("../../public/assets/fonts/FuturaBQBook.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Didot LT Pro";
+    src: url("../../public/assets/fonts/Monotype\ -\ DidotLTPro-Roman.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../public/assets/images/Bg-Armani.webp");
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    width: 100%;
+    height: 71px;
+    margin-bottom: 6vw;
+    padding: 0 10vw;
+    margin-top: 3vw;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#trigger {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.first {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bottle-trigger {
+    width: auto;
+    height: 30vh;
+    object-fit: contain;
+    margin: 0 auto;
+    margin-bottom:2vh;
+}
+
+#startTrigger {
+   width: 20vw;
+   padding: 10px 30px;
+   border-radius: 30px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-bottom: 2vh;
+}
+
+#startTrigger img {
+    width: 100%;
+    object-fit: contain;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Didot LT Pro";
+    font-size: 9vw;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 4vw;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Didot LT Pro";
+    font-size: 4.5vw;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 4vw;
+}
+
+.small {
+    font-size: 3vw;
+    text-align: center;
+}
+
+p {
+   margin-bottom: 1vh;
+   color: #fff;
+   font-family: "Futura BQ";
+   letter-spacing: 2px;
+   font-weight: 400;
+}
+
+.date {
+    font-size: 5vw;
+    text-align: center;
+}
+
+.d-none {
+    display: none !important;
+}
+#scanner {
+    width: 100%;
+    height: 30vh;
+    background-color: #FEFEFE ;
+    margin-bottom: 5vh;
+}
